@@ -15,6 +15,9 @@ from matplotlib.animation import FuncAnimation
 class MolecularDynamics:
     """Molecular Dynamics simulation class"""
     
+    # Constants
+    MIN_DISTANCE = 0.3  # Minimum distance to avoid singularities in force calculation
+    
     def __init__(self, n_particles=20, box_size=10.0, dt=0.001):
         """
         Initialize the simulation
@@ -59,8 +62,8 @@ class MolecularDynamics:
         - force vector
         """
         r = np.linalg.norm(r_vec)
-        if r < 0.3:  # avoid singularity
-            r = 0.3
+        if r < self.MIN_DISTANCE:  # avoid singularity
+            r = self.MIN_DISTANCE
         
         # Cutoff distance to limit force range
         r_cutoff = 3.0 * self.sigma
@@ -110,8 +113,8 @@ class MolecularDynamics:
                 r_vec = r_vec - self.box_size * np.round(r_vec / self.box_size)
                 r = np.linalg.norm(r_vec)
                 
-                if r < 0.3:
-                    r = 0.3
+                if r < self.MIN_DISTANCE:
+                    r = self.MIN_DISTANCE
                 
                 # Cutoff distance
                 r_cutoff = 3.0 * self.sigma

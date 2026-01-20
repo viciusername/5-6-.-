@@ -14,6 +14,10 @@ import matplotlib.pyplot as plt
 from scipy import stats
 
 
+# Constants for convergence study
+CONVERGENCE_SAMPLE_SIZES = [100, 500, 1000, 5000, 10000, 50000, 100000]
+
+
 class RandomWalk:
     """2D Random Walk simulation"""
     
@@ -180,7 +184,7 @@ class MultipleRandomWalks:
 
 def convergence_study():
     """Study convergence of Monte Carlo Pi estimation"""
-    sample_sizes = [100, 500, 1000, 5000, 10000, 50000, 100000]
+    sample_sizes = CONVERGENCE_SAMPLE_SIZES
     pi_estimates = []
     errors = []
     
