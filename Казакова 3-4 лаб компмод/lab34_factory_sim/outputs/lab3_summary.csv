@@ -1,0 +1,2 @@
+sim_minutes,batches_arrived,parts_finished,good_parts,defective_parts,mean_lead_time_min,util_preprocess,util_assembly,util_adjust,replacement_count
+480.0,44,58,57,1,193.08977386559556,0.8541666666666666,0.9833333333333333,0.939981817042003,0

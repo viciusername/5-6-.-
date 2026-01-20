@@ -1,0 +1,7 @@
+Lab4 найденное X (минимальное, по критерию pass_fraction>=0.95):
+X* = 13.28 мин
+Pass fraction = 0.980
+Mean(Qmax) = 10.92
+P95(Qmax) = 19.00
+
+Analytic mean batch service time S̄ ≈ 74.24 мин (used for M/M/4 approximation).
