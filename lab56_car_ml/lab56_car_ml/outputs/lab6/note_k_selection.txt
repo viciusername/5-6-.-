@@ -1,0 +1,2 @@
+Кількість класів у ЛР5: 4. У ЛР6 базова кластеризація виконана k-means з k=4.
+Метрики: inertia (min), silhouette (max), Calinski-Harabasz (max), Davies-Bouldin (min).

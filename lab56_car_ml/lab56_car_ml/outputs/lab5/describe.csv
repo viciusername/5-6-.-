@@ -1,0 +1,12 @@
+,PurchasePrice,MaintenanceCost,Doors,Passengers,Cargo,Safety
+count,1728,1728,1728.0,1728.0,1728,1728
+unique,4,4,,,3,3
+top,very high,very high,,,small,low
+freq,432,432,,,576,576
+mean,,,3.5,3.6666666666666665,,
+std,,,1.1183576344329658,1.2475801707990282,,
+min,,,2.0,2.0,,
+25%,,,2.75,2.0,,
+50%,,,3.5,4.0,,
+75%,,,4.25,5.0,,
+max,,,5.0,5.0,,

@@ -1,0 +1,11 @@
+Rows (raw): 1728
+Columns: 7  => ['PurchasePrice', 'MaintenanceCost', 'Doors', 'Passengers', 'Cargo', 'Safety', 'Acceptability']
+Label column: Acceptability
+Rows with missing values: 0
+Duplicate rows: 0
+Rows (clean): 1728
+Class distribution (clean):
+  unacceptable: 1210
+  acceptable: 384
+  good: 69
+  very good: 65

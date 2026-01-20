@@ -1,0 +1,13 @@
+test_index,test_class,nearest_train_index,nearest_train_class,same_class,distance
+217,acceptable,165,acceptable,True,1.0
+41,acceptable,40,acceptable,True,1.0
+252,acceptable,189,acceptable,True,1.0
+29,good,213,good,True,1.0
+228,good,888,good,True,1.0
+263,good,69,good,True,1.0
+186,unacceptable,325,unacceptable,True,1.0
+336,unacceptable,73,unacceptable,True,1.0
+259,unacceptable,1315,unacceptable,True,1.0
+146,very good,278,very good,True,1.0
+156,very good,354,very good,True,1.0
+56,very good,59,very good,True,1.0
